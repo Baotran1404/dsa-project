@@ -19,8 +19,7 @@ class Tile extends React.Component {
   }
 
   handleEmptyTile(e) {
-    // e.buttons === 1 simply checks that the mouse is pressed down
-    // i.e. creating the feeling of clicking and dragging a path
+ 
     if (e.buttons === 1) {
       let pathSegmentColor = this.props.tile.pathSegmentColor;
       let pos = this.props.tile.pos;
